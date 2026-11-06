@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dejanstancevic.github.io/sitemap.xml

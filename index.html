@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafaf8">
+  <meta name="description" content="Dejan Stančević is a PhD researcher studying generative models through information theory.">
+  <title>Dejan Stančević | PhD Researcher in Machine Learning</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="canonical" href="https://dejanstancevic.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dejanstancevic.github.io/">
+  <meta property="og:title" content="Dejan Stančević | PhD Researcher">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <div class="page">
+    <header class="site-header">
+      <div class="identity"><a class="name" href="./">Dejan Stančević</a><span>PhD researcher · Radboud University</span></div>
+      <nav aria-label="Main navigation"><a href="./" aria-current="page">Home</a><a href="papers.html">Papers</a><a href="cv.html">CV</a></nav>
+    </header>
+
+    <main id="content">
+      <section class="intro">
+        <div class="intro-layout">
+          <div>
+            <h1>Hi, I’m Dejan.</h1>
+            <p>I’m a PhD researcher at the Donders Centre for Cognition, Radboud University, working with <a href="https://www.ru.nl/en/people/ambrogioni-l" target="_blank" rel="noopener noreferrer">Luca Ambrogioni</a>. I use information theory and statistical physics to understand generative models: how they turn noise into structure, what they learn from data, and where computation matters most.</p>
+            <p class="intro-links"><a href="https://scholar.google.com/citations?user=3onRL2sAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a><span aria-hidden="true">·</span><a href="https://github.com/DejanStancevic" target="_blank" rel="noopener noreferrer">GitHub</a><span aria-hidden="true">·</span><a href="https://x.com/DejanStancevic" target="_blank" rel="noopener noreferrer">X</a></p>
+          </div>
+          <img class="portrait" src="dejan-photo.jpeg" alt="Portrait of Dejan Stančević" width="512" height="512">
+        </div>
+      </section>
+
+      <section id="research" class="section">
+        <h2>Research</h2>
+        <p>My research uses information theory to understand generative models. I am particularly interested in these questions:</p>
+        <ul class="interests">
+          <li>What can information theory tell us about how generative models work?</li>
+          <li>What are the trade-offs between generative frameworks, such as autoregression and diffusion, and what does each make possible?</li>
+          <li>How do the order and amount of computation shape the generative process?</li>
+        </ul>
+        <p class="research-outlook">Much of my work so far has studied neural networks from the outside, through their trajectories, samples, and information flow. I am increasingly interested in what their learned weights encode, how they process information internally, and how training data shapes generalization and creativity. Our recent work on <a href="https://arxiv.org/abs/2610.33337" target="_blank" rel="noopener noreferrer">model information</a> investigates one part of this picture: how generated samples depend on the training dataset.</p>
+      </section>
+
+      <section id="selected-papers" class="section">
+        <h2>Selected papers</h2>
+        <div class="publication-list selected-list">
+          <article class="publication"><span class="pub-year">2026</span><div><h3><a href="https://arxiv.org/abs/2610.33337" target="_blank" rel="noopener noreferrer">Information-Theoretic Scaling Laws for Generative Diffusion Training</a></h3><p>Druv Pai*, <strong>Dejan Stančević*</strong>, Yi Ma, Luca Ambrogioni · <span class="venue-inline">arXiv</span></p><p class="description">Can we predict memorization, generalization, and sample quality in diffusion models by measuring how much their generated samples depend on the training dataset? We introduce an information-theoretic perspective and uncover a predictive scaling law.</p></div></article>
+          <article class="publication"><span class="pub-year">2026</span><div><h3><a href="https://proceedings.mlr.press/v306/handke26a.html" target="_blank" rel="noopener noreferrer">The Entropic Signature of Class Speciation in Diffusion Models</a></h3><p>Florian Handke*, <strong>Dejan Stančević*</strong>, Felix Koulischer, Thomas Demeester, Luca Ambrogioni · <span class="venue-inline">ICML</span></p><p class="description">Peaks in the class-conditional entropy rate help locate speciation times: narrow windows when samples move from semantic ambiguity to class commitment. The same approach tracks decisions at different levels of abstraction.</p></div></article>
+          <article class="publication"><span class="pub-year">2026</span><div><h3><a href="https://doi.org/10.3390/e28020195" target="_blank" rel="noopener noreferrer">The Information Dynamics of Generative Diffusion</a></h3><p><strong>Dejan Stančević</strong>, Luca Ambrogioni · <span class="venue-inline">Entropy</span></p><p class="description">We connect conditional entropy with symmetry breaking and finite-time Lyapunov behavior along diffusion trajectories. We show that pathwise entropy tells us about speciation and decision times along generative paths. Together, these results show the importance of conditional entropy for understanding diffusion generation.</p></div></article>
+          <article class="publication"><span class="pub-year">2025</span><div><h3><a href="https://proceedings.nips.cc/paper_files/paper/2025/hash/3ed10616ecdd776be283c0a45cf9332d-Abstract-Conference.html" target="_blank" rel="noopener noreferrer">Entropic Time Schedulers for Generative Diffusion Models</a></h3><p><strong>Dejan Stančević</strong>, Florian Handke, Luca Ambrogioni · <span class="venue-inline">NeurIPS</span> · <a href="https://github.com/DejanStancevic/Entropic-Time-Schedulers-for-Generative-Diffusion-Models" target="_blank" rel="noopener noreferrer">Code</a></p><p class="description">We explore a principled way to distribute computation during generation so that each time interval contributes the same amount of information about the final sample.</p></div></article>
+        </div>
+        <p class="section-note">* Equal contribution. <a href="papers.html">View all papers →</a></p>
+      </section>
+
+      <section id="about" class="section">
+        <h2>About</h2>
+        <p>Before my PhD in Nijmegen, I completed an MSc in Mathematics at the University of Gothenburg and a BSc in Physics at Lund University.</p>
+        <p>For more background, see my <a href="cv.html">CV</a>. You can reach me at <span class="email-address">dejan.stancevic (at) donders.ru.nl</span>.</p>
+      </section>
+    </main>
+    <footer>© 2026 Dejan Stančević</footer>
+  </div>
+</body>
+</html>
